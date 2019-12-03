@@ -1,0 +1,5 @@
+<form nz-from [formGroup]="user">
+  <input type="text" placeholder="请输入手机号" formControlName="mobile">
+  <input type="password" placeholder="请输入密码" formControlName="password">
+  <button (click)="signup()">注册</button>
+</form>

@@ -1,0 +1,11 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: web-service
+  datasource:
+    url: jdbc:mysql://212.64.91.92:3306/demo?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true&useSSL=false&allowPublicKeyRetrieval=true&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT
+    username: root
+    password: 1124
+    driver-class-name: com.mysql.cj.jdbc.Driver
